@@ -1,6 +1,6 @@
 import About from './About'
 import Contact from './Contact'
-import Home from './Hero'
+import Hero from './Hero'
 import Navbar from './Navbar'
 import Portfolio from './Portfolio'
 import Skills from './Skills'
@@ -10,7 +10,7 @@ export
 { 
     About,
     Contact,
-    Home,
+    Hero,
     Navbar,
     Portfolio,
     Skills,

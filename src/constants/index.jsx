@@ -5,7 +5,7 @@
 */
 
 // Navigation Bar links
-const navLinks = [
+export const navLinks = [
     {
         id: 1,
         title: 'home',
