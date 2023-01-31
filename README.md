@@ -26,15 +26,15 @@ different programming languages and also in creating apps.
   - CSS framework for faster styling
   - installing tailwind css for vite react project:
     - npm install -D tailwindcss postcss autoprefixer
-      3npx tailwindcss init -p
-  
+      npx tailwindcss init -p
+
     - Connect tailwindcss to react project
       * add lines of code to tailwind.config.cjs / content:
         content: [
           "./index.html",
           "./src/**/*.{js,ts,jsx,tsx}",
         ],
-  
+
       * Add lines of codes to index.css:
       @tailwind base;
       @tailwind components;
