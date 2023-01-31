@@ -1,9 +1,16 @@
 import React from 'react'
+import { About, Contact, Hero, Navbar, Portfolio, Skills, Social } from './components'
 
 const App = () => {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Navbar />
+      <Hero />
+      <About />
+      <Portfolio />
+      <Skills />
+      <Contact />
+      <Social />
     </div>
   )
 }
