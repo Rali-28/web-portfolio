@@ -24,4 +24,15 @@ different programming languages and also in creating apps.
     - npm install -D tailwindcss postcss autoprefixer
       npx tailwindcss init -p
 
+    - Connect tailwindcss to react project
+      * add lines of code to tailwind.config.cjs / content:
+        content: [
+          "./index.html",
+          "./src/**/*.{js,ts,jsx,tsx}",
+        ],
+
+      * Add lines of codes to index.css:
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
     
