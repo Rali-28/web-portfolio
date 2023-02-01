@@ -37,6 +37,9 @@ const Navbar = () => {
         ))}
       </ul>
 
+      {/* 
+      // TODO: CLOSE THE MOBILE VIEW WHENEVER A LINK IS CLICKED 
+      */}
       {/* Mobile navbar open and close button */}
       <div
         onClick={() => setToggle(!toggle)}
