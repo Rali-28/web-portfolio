@@ -42,13 +42,14 @@ const Navbar = () => {
         onClick={() => setToggle(!toggle)}
         className="z-10 pr-4 text-gray-500 cursor-pointer md:hidden">
 
-          {/* Uses useState to toggle between false(FaBars) and true(FaTimes) */}
           {/* // TODO: add transition animation for the bar and x of the navbar's mobile view */}
+          {/* Uses useState to toggle between false(FaBars) and true(FaTimes) */}
           {toggle ? <FaTimes size={30}/> : <FaBars size={30} />}
 
       </div>
       
       {/* // TODO: Add animation to opening and closing of mobile navbar */}
+      {/* Mobile Navbar rendering of links */}
       {toggle && (
         <ul className="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-screen text-gray-500 bg-gradient-to-b from-black to-gray-800">
 
