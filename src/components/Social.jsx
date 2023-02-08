@@ -5,13 +5,30 @@ import { socialLinks } from '../constants'
 
 const Social = () => {
   return (
-    // * Main container for Socials
-    <div>
+    /*
+      * Main container for Socials
+      * Renders the list in a column
+        TODO: Rendering for small devices  
+    */ 
+    <div className='fixed top-[35%] left-0 flex-col hidden lg:flex'>
       <ul>
-          {socialLinks.map((link) => (
-            <li>
-              <a href={link.link}>
-                {link.content}
+          {/* 
+            // * Renders a list of social media links using the imports from ../constants/index.jsx 
+            // * LinkedIn, Github, Email (Gmail), Resume (in respective order)
+            // TODO: Fix download
+          */}
+          {socialLinks.map(({id, content, style, link, download}) => (
+            <li 
+              key={id}
+              className={`flex items-center justify-between w-40 px-4 ml-[-100px] duration-300 bg-gray-500 ${style} h-14 hover:ml-[-10px]`}
+            >
+              <a 
+                href={link} 
+                className='flex items-center justify-between w-full text-white'
+                // download={download} 
+                target='_blank'
+              >
+                {content}
               </a>
             </li>
           ))}

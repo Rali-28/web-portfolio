@@ -9,6 +9,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 // End of social icons
+import { css } from '../assets'
 
 // * Navigation Bar links
 export const navLinks = [
@@ -35,6 +36,7 @@ export const navLinks = [
 ]
 
 // * Social Links
+// TODO: Change social links style color to respective logo theme
 export const socialLinks = [
     {
         id: 1,
@@ -44,7 +46,7 @@ export const socialLinks = [
                 LinkedIn <FaLinkedin size={30} />
             </>
         ),
-        style: 'rounded-br-md',
+        style: 'rounded-tr-md',
         link: 'https://www.linkedin.com/'
     },
     {
@@ -66,8 +68,8 @@ export const socialLinks = [
                 Email <FiMail size={30} />
             </>
         ),
-        style: '',
-        link: '#'
+        style: '', 
+        link: 'mailto:janaban.srj@gmail.com' // TODO: Add link to emailing me on gmail janaban.srj@gmail.com
     },
     {
         id: 4,
@@ -78,7 +80,7 @@ export const socialLinks = [
             </>
         ),
         style: 'rounded-br-md',
-        link: '#',
-        download: 'true'
+        link: css, // TODO: Add link to resume pdf & Replace with resume
+        // download: true // TODO: Fix download for resume
     },
 ]
