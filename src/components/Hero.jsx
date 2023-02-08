@@ -1,24 +1,24 @@
 import React from 'react'
-// imports the heroImg from assets
+// * imports the heroImg from assets
 import { heroImg } from '../assets'
-// imports a right arrow icon from react-icons/bi
+// * imports a right arrow icon from react-icons/bi
 import { BiRightArrowCircle } from 'react-icons/bi'
 
 const Hero = () => {
   return (
-    // Main div of the hero section
+    // * Main div of the hero section
     <div name="home" id="home" className="w-full h-screen text-white bg-gradient-to-b from-black to-gray-800">
 
       {/* 
-          Div for handling two sections of the webpage, the Introduction and profile picture
-          Shows the two section in a column on large screens and a row on small screens
+        // * Div for handling two sections of the webpage, the Introduction and profile picture
+        // * Shows the two section in a column on large screens and a row on small screens
       */}
       <div className="flex flex-col items-center justify-center h-full max-w-screen-lg px-3 mx-auto md:flex-row">
 
         {/* 
-            Div for the introduction and the portfolio button
-            Texts and button are alinged on the left side for large screens
-            Aligned on the center for small screens
+          // * Div for the introduction and the portfolio button
+          // * Texts and button are alinged on the left side for large screens
+          // * Aligned on the center for small screens
         */}
         <div className="flex flex-col justify-center h-full text-center md:text-left">
           <h2 className="text-4xl font-bold sm:text-6xl">
@@ -30,8 +30,9 @@ const Hero = () => {
           </p>
 
           <div>
-            {/* The portfolio button that have acolor of cyan to blue
-                aligned as a column to make right arrow appear besides "Portfolio"
+            {/* 
+              // * The portfolio button that have acolor of cyan to blue
+              // * aligned as a column to make right arrow appear besides "Portfolio"
             */}
             <button className="flex items-center px-6 py-3 my-2 rounded-md cursor-pointer group w-fit bg-gradient-to-r from-cyan-500 to-blue-500 text-[25px] mx-auto md:mx-0">
               Portfolio 
