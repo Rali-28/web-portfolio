@@ -21,16 +21,19 @@ const Navbar = () => {
           Hides the navbar on small screens < 768px */}
       <ul className="hidden md:flex">
 
-        {navLinks.map((link) => (
+        {navLinks.map(({id, title}) => (
 
           // Enlargens the links when hovered
-          <li className="px-4 font-medium text-gray-500 capitalize duration-200 cursor-pointer hover:scale-105">
+          <li 
+          key={id}
+            className="px-4 font-medium text-gray-500 capitalize duration-200 cursor-pointer hover:scale-105"
+          >
 
             {/* anchor tag for different parts of the webpage */}
-            <a href={`#${link.title}`}>
+            <a href={`#${title}`}>
 
               {/* renders the texts for the navbar */}
-              {link.title}
+              {title}
 
             </a>
           </li>
