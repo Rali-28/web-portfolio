@@ -84,3 +84,18 @@ export const socialLinks = [
         // download: true // TODO: Fix download for resume
     },
 ]
+
+// * About Section Texts
+export const about = [
+    {
+        id: 1,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea ad excepturi recusandae doloremque eius, dolores repellat ducimus dolorem repudiandae mollitia repellendus id facere odit debitis quidem officia est magnam!',
+        br: (
+            <br />
+        )
+    },
+    {
+        id: 2,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea ad excepturi recusandae doloremque eius, dolores repellat ducimus dolorem repudiandae mollitia repellendus id facere odit debitis quidem officia est magnam!'
+    },
+]

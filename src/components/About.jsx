@@ -1,4 +1,6 @@
 import React from 'react'
+// * Imports texts for the Baout section
+import { about } from '../constants'
 
 const About = () => {
   return (
@@ -19,17 +21,23 @@ const About = () => {
 
         {/* 
           // TODO: Put a professional "About Me" statements in here.
+          // * Renders the Texts for showing About me
+          // * Adds a mt-20 on the first paragraph
+          // * Paragraphs are indented
         */}
-        <p className='mt-20 text-xl'>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates aliquid a facere quis dolores expedita qui, illo est nulla cum suscipit natus non, earum reiciendis deleniti inventore doloribus fugit odio.
-        </p>
+        {about.map(({id, text, br}) => (
+        <div
+          key={id}
+        >
+          <p className={`${id === 1 ? 'mt-20' : ''} text-xl indent-10`}>
+            {text}
+          </p>
+          
+          {br}
 
-        <br />
-
-        <p className='text-xl'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo itaque, sapiente voluptatem omnis amet tenetur aperiam. Laudantium a sapiente iusto dolor adipisci! Necessitatibus minima est corporis ullam aspernatur ipsum distinctio?
-        </p>
-
+        </div>
+        ))}
+          
       </div>
 
     </div>
