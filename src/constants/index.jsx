@@ -67,7 +67,7 @@ export const socialLinks = [
             </>
         ),
         style: '',
-        link: ''
+        link: '#'
     },
     {
         id: 4,
