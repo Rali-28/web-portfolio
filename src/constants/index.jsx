@@ -105,6 +105,8 @@ export const about = [
     },
 ]
 
+// * Portfolio Images for Projects
+// TODO: Add links to project
 export const portfolioImg = [
     {
       id: 1,
