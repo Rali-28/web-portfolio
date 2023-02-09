@@ -9,7 +9,12 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 // End of social icons
+// TODO: Change to pdf of resume
 import { css } from '../assets'
+
+// * Image import for portfolio previews
+// * assets/portfolio
+import { arrayDestruct, installNode, navbar, reactParallax, reactSmooth, reactWeather, usestate } from '../assets/portfolio'
 
 // * Navigation Bar links
 export const navLinks = [
@@ -97,5 +102,43 @@ export const about = [
     {
         id: 2,
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea ad excepturi recusandae doloremque eius, dolores repellat ducimus dolorem repudiandae mollitia repellendus id facere odit debitis quidem officia est magnam!'
+    },
+]
+
+export const portfolioImg = [
+    {
+      id: 1,
+      title: 'array destruct',
+      img: arrayDestruct
+    },
+    {
+      id: 2,
+      title: 'install node',
+      img: installNode
+    },
+    {
+      id: 3,
+      title: 'navbar',
+      img: navbar   
+    },
+    {
+      id: 4,
+      title: 'react parallax',
+      img: reactParallax  
+    },
+    {
+      id: 5,
+      title: 'react smooth',
+      img: reactSmooth  
+    },
+    {
+      id: 6,
+      title: 'react weather',
+      img: reactWeather  
+    },
+    {
+      id: 7,
+      title: 'usestate',
+      img: usestate   
     },
 ]

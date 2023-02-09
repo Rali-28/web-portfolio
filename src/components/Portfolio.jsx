@@ -1,6 +1,5 @@
 import React from 'react'
-// * Imports pictures.jpgs from asset/portfolio for showing a preview of the project
-import { arrayDestruct, installNode, navbar, reactParallax, reactSmooth, reactWeather } from '../assets/portfolio'
+// * Imports images for portfolio from constants/index.jsx
 
 const Portfolio = () => {
   return (
@@ -13,7 +12,7 @@ const Portfolio = () => {
 
       <div>
         <div>
-          <img src={reactWeather} alt="weather" />
+          <img src="" alt="" />
           <div>
             <button>Demo</button>
             <button>Code</button>
