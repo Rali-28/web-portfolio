@@ -154,55 +154,55 @@ export const portfolioImg = [
 export const skillsImg = [
     {
         id: 1,
-        title: 'css',
+        title: 'CSS',
         img: css,
         style: 'shadow-blue-500'
     },
     {
         id: 2,
-        title: 'github',
+        title: 'Github',
         img: github,
-        style: 'shadow-grey-400'
+        style: 'shadow-gray-400'
     },
     {
         id: 3,
-        title: 'graphql',
+        title: 'Graphql',
         img: graphql,
         style: 'shadow-pink-400'
     },
     {
         id: 4,
-        title: 'html',
+        title: 'HTML',
         img: html,
         style: 'shadow-orange-500'
     },
     {
         id: 5,
-        title: 'javascript',
+        title: 'Javascript',
         img: javascript,
         style: 'shadow-yellow-500'
     },
     {
         id: 6,
-        title: 'nextjs',
+        title: 'Next.js',
         img: nextjs,
         style: 'shadow-white'
     },
     {
         id: 7,
-        title: 'node',
+        title: 'Node.js',
         img: node,
         style: 'shadow-green-500'
     },
     {
         id: 8,
-        title: 'react',
+        title: 'React.js',
         img: react,
         style: 'shadow-blue-600'
     },
     {
         id: 9,
-        title: 'tailwind',
+        title: 'tailwindcss',
         img: tailwind,
         style: 'shadow-sky-500'
     },

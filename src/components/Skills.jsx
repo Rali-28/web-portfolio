@@ -21,8 +21,8 @@ const Skills = () => {
           // * Renders in 2 or < columns for smaller screens  
         */}
         <div className='grid w-full gap-8 px-12 py-8 text-center sm:grid-cols-2 md:grid-cols-3 sm:px-0'>
-          {skillsImg.map(({id, title, img}) => (
-            <div key={id} className='py-2 duration-500 rounded-lg shadow-md hover:scale-105'>
+          {skillsImg.map(({id, title, img, style}) => (
+            <div key={id} className={`${style} py-2 duration-500 rounded-lg shadow-md hover:scale-105`}>
               <img src={img} alt={title} className='w-20 mx-auto' />
               <p>{title}</p>
             </div>
