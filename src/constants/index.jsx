@@ -10,7 +10,7 @@ import { FiMail } from 'react-icons/fi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 // End of social icons
 // TODO: Change to pdf of resume
-import { css } from '../assets'
+// import { css } from '../assets'
 
 // * Image import for portfolio previews
 // * assets/portfolio
