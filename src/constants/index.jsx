@@ -16,6 +16,9 @@ import { css } from '../assets'
 // * assets/portfolio
 import { arrayDestruct, installNode, navbar, reactParallax, reactSmooth, reactWeather, usestate } from '../assets/portfolio'
 
+// * Images for use in skills section
+import { css, github, graphql, html, javascript, nextjs, node, react, tailwind } from '../assets'
+
 // * Navigation Bar links
 export const navLinks = [
     {
@@ -142,5 +145,56 @@ export const portfolioImg = [
       id: 7,
       title: 'usestate',
       img: usestate   
+    },
+]
+
+
+// * Skills images
+// TODO: Change images to skills I use
+export const skillsImg = [
+    {
+        id: 1,
+        title: 'css',
+        img: css
+    },
+    {
+        id: 2,
+        title: 'github',
+        img: github
+    },
+    {
+        id: 3,
+        title: 'graphql',
+        img: graphql
+    },
+    {
+        id: 4,
+        title: 'html',
+        img: html
+    },
+    {
+        id: 5,
+        title: 'javascript',
+        img: javascript
+    },
+    {
+        id: 6,
+        title: 'nextjs',
+        img: nextjs
+    },
+    {
+        id: 7,
+        title: 'node',
+        img: node
+    },
+    {
+        id: 8,
+        title: 'react',
+        img: react
+    },
+    {
+        id: 9,
+        title: 'tailwind',
+        img: tailwind
     },
 ]

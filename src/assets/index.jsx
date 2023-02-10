@@ -10,6 +10,8 @@ import node from './node.png'
 import react from './react.png'
 import tailwind from './tailwind.png'
 
+
+// TODO: Changes images to be suitable for me, heroImg to image of self, technologies that I actually use
 export
 {
     css,
