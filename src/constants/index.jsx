@@ -155,46 +155,55 @@ export const skillsImg = [
     {
         id: 1,
         title: 'css',
-        img: css
+        img: css,
+        style: 'shadow-blue-500'
     },
     {
         id: 2,
         title: 'github',
-        img: github
+        img: github,
+        style: 'shadow-grey-400'
     },
     {
         id: 3,
         title: 'graphql',
-        img: graphql
+        img: graphql,
+        style: 'shadow-pink-400'
     },
     {
         id: 4,
         title: 'html',
-        img: html
+        img: html,
+        style: 'shadow-orange-500'
     },
     {
         id: 5,
         title: 'javascript',
-        img: javascript
+        img: javascript,
+        style: 'shadow-yellow-500'
     },
     {
         id: 6,
         title: 'nextjs',
-        img: nextjs
+        img: nextjs,
+        style: 'shadow-white'
     },
     {
         id: 7,
         title: 'node',
-        img: node
+        img: node,
+        style: 'shadow-green-500'
     },
     {
         id: 8,
         title: 'react',
-        img: react
+        img: react,
+        style: 'shadow-blue-600'
     },
     {
         id: 9,
         title: 'tailwind',
-        img: tailwind
+        img: tailwind,
+        style: 'shadow-sky-500'
     },
 ]
