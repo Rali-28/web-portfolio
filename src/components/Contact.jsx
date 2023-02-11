@@ -59,7 +59,7 @@ const Contact = () => {
             </textarea>
 
             {/* Button for submitting completed forms */}
-            <button >
+            <button className='flex items-center px-6 py-3 mx-auto my-8 text-white duration-300 rounded-md bg-gradient-to-b from-cyan-500 to-blue-500 hover:scale-110'>
               Send
             </button>
           </form>
