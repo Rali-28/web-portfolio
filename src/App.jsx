@@ -3,6 +3,20 @@ import { About, Contact, Hero, Navbar, Portfolio, Skills, Social } from './compo
 
 const App = () => {
   return (
+
+    /*
+      ! Issue: Section rendering overlaps because of h-screen 
+      TODO: Fix rendering issue of whole sections change h-screen
+      
+      TODO: Combine similar stylings into one using @apply to provide a cleaner code
+
+      TODO: Create better comments for easily understanding the codes
+
+      TODO: Update readme.md
+          * Techs used and why
+          * Credits for the used assets
+          * Credits for the tutorial
+    */
     <div>
       <Navbar />
       <Hero />
