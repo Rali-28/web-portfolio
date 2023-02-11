@@ -57,6 +57,11 @@ const Contact = () => {
             >
               
             </textarea>
+
+            {/* Button for submitting completed forms */}
+            <button >
+              Send
+            </button>
           </form>
         </div>
       </div>
