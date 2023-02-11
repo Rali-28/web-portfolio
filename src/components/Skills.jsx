@@ -10,7 +10,7 @@ const Skills = () => {
       <div className='flex flex-col justify-center max-w-screen-lg p-4 mx-auto text-white'>
         {/* Header container div */}
         <div>
-          <p className='inline p-2 text-4xl font-bold border-b-4 border-gray-500'>Experience</p>
+          <p className='inline p-2 text-4xl font-bold border-b-4 border-gray-500'>Skills</p>
           <p className='py-6'>Technologies that I use and practice.</p>
         </div>
         {/* End header */}
