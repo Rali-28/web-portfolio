@@ -22,6 +22,7 @@ const Contact = () => {
         {/* 
           // * Forms container
           // * Forms that will enable the viewer to send me a message
+          // TODO: Use EmailJS to enable viewers to send me a message
         */}
         <div className='flex items-center justify-center'>
           <form action='' className='flex flex-col w-full md:w-1/2'>
