@@ -4,27 +4,27 @@ const Contact = () => {
   return (
 
     // * Main container div for the contact section
-    <div>
+    <div id='contact' name='contact' className='w-full h-screen p-4 text-white bg-gradient-to-b from-black to-gray-800'>
 
       {/* 
         // * Container div for arranging and styling the contact section
       */}
-      <div>
+      <div className='flex flex-col justify-center h-full max-w-screen-lg p-4 mx-auto'>
 
         {/* 
           // * Header container
         */}
-        <div>
-          <p>Contact</p>
-          <p>Send me a message to get in touch.</p>
+        <div className='pb-8'>
+          <p className='inline text-4xl font-bold border-b-4 border-gray-500'>Contact</p>
+          <p className='py-6'>Send me a message to get in touch.</p>
         </div>
 
         {/* 
           // * Forms container
           // * Forms that will enable the viewer to send me a message
         */}
-        <div>
-          <form action=''>
+        <div className='flex items-center justify-center'>
+          <form action='' className='flex flex-col w-full md:w-1/2'>
 
             {/* Name of Sender Input */}
             <input 
