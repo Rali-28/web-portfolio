@@ -52,9 +52,9 @@ different programming languages and also in creating apps.
 ### TODO List
 
   #### Navbar
-    TODO [] Add smooth scroll
-    TODO [] Close Mobile View Navbar whenever a link is pressed
-    TODO [] Add transition animation to Navbar Button
+    TODO - [x] Add smooth scroll
+    TODO - [x] Close Mobile View Navbar whenever a link is pressed
+    TODO - [] Add transition animation to Navbar Button
     TODO [] Add animation to opening and closing of mobile navbar
     TODO [] Make Navbar fixed 
  
