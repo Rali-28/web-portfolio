@@ -16,6 +16,7 @@ const Skills = () => {
         {/* End header */}
 
         {/* 
+          // TODO: Change images to actual skills that I have 
           // * Skills images
           // * Renders in 3 columns for big screens
           // * Renders in 2 or < columns for smaller screens  

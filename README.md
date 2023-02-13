@@ -49,3 +49,30 @@ different programming languages and also in creating apps.
   - A library of different icons to be used for the web portfolio
   - npm install react-icons
     
+### TODO List
+
+  #### Navbar
+    TODO [] Add smooth scroll
+    TODO [] Close Mobile View Navbar whenever a link is pressed
+    TODO [] Add transition animation to Navbar Button
+    TODO [] Add animation to opening and closing of mobile navbar
+    TODO [] Make Navbar fixed 
+ 
+  #### HERO Section
+    TODO [] Change picture hero section profile picture of myself
+
+  #### ABOUT Section 
+    TODO [] Change texts into an introduction of myself include why I wanted to pursue this career
+
+  #### PORTFOLIO Section
+    TODO [] Add pictures and links of projects that I created
+
+  #### SKILLS Section
+    TODO [] Change images into skills that I am knowledgeable enough to be using
+
+  #### CONTACT Section
+    TODO [] Use EmailJS to have a messaging function in website
+
+  #### SOCIAL LINKS Section
+    TODO [] Change resume link to show my resume: Opens in new page or downloads it
+    TODO [] Make a mobile view of said links
