@@ -72,7 +72,11 @@ const Navbar = () => {
           {navLinks.map((link) => (
           
               // Enlargens the links when hovered
-              <li className="px-4 py-6 text-4xl font-medium text-gray-500 capitalize cursor-pointer">
+              //  Closes the mobile navbar when link is clicked
+              <li 
+                className="px-4 py-6 text-4xl font-medium text-gray-500 capitalize cursor-pointer"
+                onClick={() => setToggle(!toggle)}  
+              >
               
                 {/* anchor tag for different parts of the webpage */}
                   <a href={`#${link.title}`}>
