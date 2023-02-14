@@ -3,6 +3,11 @@ import React, { useState } from 'react'
 import { navLinks } from '../constants'
 // * enables the use of font-awesome icons by the use of react-icons, a bar and x for navbar mobile view
 import { FaBars, FaTimes } from 'react-icons/fa'
+/* 
+  * Imports smooth scrolling for reactjs
+  * Scroll is named as animateScroll for easy naming
+*/
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
 
@@ -25,17 +30,22 @@ const Navbar = () => {
 
           // Enlargens the links when hovered
           <li 
-          key={id}
+            key={id}
             className="px-4 font-medium text-gray-500 capitalize duration-200 cursor-pointer hover:scale-105"
           >
-
-            {/* anchor tag for different parts of the webpage */}
-            <a href={`#${title}`}>
-
+            {/* 
+              // * Navbar smooth scrolling to different sections
+              // TODO: Show which section is active
+            */}
+            <Link
+              activeClass="active"
+              to={`${title}`}
+              smooth={true}
+              duration={500}
+            >
               {/* renders the texts for the navbar */}
               {title}
-
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
