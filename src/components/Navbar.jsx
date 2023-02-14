@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     // * Main Navbar Container 
-    <nav className='sticky flex items-center justify-between w-full h-20 px-4 text-white bg-black'>
+    <nav className='md:fixed flex items-center justify-between w-full h-20 px-4 text-white bg-black'>
 
       {/* Cursive styling of my nickname on left of navbar */}
       <h1 className="ml-2 text-5xl font-signature">
@@ -40,6 +40,8 @@ const Navbar = () => {
             <Link
               activeClass="active"
               to={`${title}`}
+              spy={true}
+              offset={-70}
               smooth={true}
               duration={500}
             >
