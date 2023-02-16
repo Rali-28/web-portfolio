@@ -26,7 +26,7 @@ const Hero = () => {
           </h2>
 
           <p className="py-5 text-gray-500">
-            I am very eager to learn more about the web development field. I have experince in creating website by using HTML, CSS, Javascript, TailwindCSS, and ReactJS.
+            I am passionate about creating new and innovative things. And web development enables me to build and apply my curiosities.. I have experince in creating website by using HTML, CSS,   Javascript, TailwindCSS, and ReactJS.
           </p>
 
           <div>
