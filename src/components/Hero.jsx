@@ -22,11 +22,11 @@ const Hero = () => {
         */}
         <div className="flex flex-col justify-center h-full text-center md:text-left">
           <h2 className="text-4xl font-bold sm:text-6xl">
-            I am a Junior Web Developer
+            I am a Web Developer
           </h2>
 
           <p className="py-5 text-gray-500">
-            I am passionate about creating new and innovative things. And web development enables me to build and apply my curiosities.. I have experince in creating website by using HTML, CSS,   Javascript, TailwindCSS, and ReactJS.
+            I am passionate about creating new and innovative things. And web development allows me to apply my curiosities. I have experince in creating website by using HTML, CSS,   Javascript, TailwindCSS, and ReactJS.
           </p>
 
           <div>
