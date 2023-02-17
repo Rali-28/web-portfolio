@@ -62,7 +62,7 @@ different programming languages and also in creating apps.
   - [ ] TODO: Change picture hero section profile picture of myself
 
   ##### ABOUT Section 
-  - [ ] TODO: Change texts into an introduction of myself include why I wanted to pursue this career
+  - [x] Change texts into an introduction of myself include why I wanted to pursue this career
 
   ##### PORTFOLIO Section
   - [ ] TODO: Add pictures and links of projects that I created
