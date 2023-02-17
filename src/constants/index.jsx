@@ -97,14 +97,14 @@ export const socialLinks = [
 export const about = [
     {
         id: 1,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea ad excepturi recusandae doloremque eius, dolores repellat ducimus dolorem repudiandae mollitia repellendus id facere odit debitis quidem officia est magnam!',
+        text: 'My name is Sean Raleigh Janaban. You can call me Rali, an aspiring programmer and a lifelong learner. Being around computers and gadgets at a young age sparked a curiosity that brought me to the world of technology.',
         br: (
             <br />
         )
     },
     {
         id: 2,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea ad excepturi recusandae doloremque eius, dolores repellat ducimus dolorem repudiandae mollitia repellendus id facere odit debitis quidem officia est magnam!'
+        text: 'I learned while being a club president that even if working alone is peaceful, working with a team brings a lot of merits. I learned a lot of things from being in a group, expanded my network, and opened up to new insights.'
     },
 ]
 
