@@ -68,7 +68,7 @@ different programming languages and also in creating apps.
   - [ ] TODO: Add pictures and links of projects that I created
 
   ##### SKILLS Section
-  - [ ] TODO: Change images into skills that I am knowledgeable enough to be using
+  - [x] Change images into skills that I am knowledgeable enough to be using
 
   ##### CONTACT Section
   - [ ] TODO: Use EmailJS to have a messaging function in website

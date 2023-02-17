@@ -17,7 +17,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { arrayDestruct, installNode, navbar, reactParallax, reactSmooth, reactWeather, usestate } from '../assets/portfolio'
 
 // * Images for use in skills section
-import { css, github, graphql, html, javascript, nextjs, node, react, tailwind } from '../assets'
+import { css, github, html, javascript, react, tailwind } from '../assets'
 
 // * Navigation Bar links
 export const navLinks = [
@@ -150,60 +150,40 @@ export const portfolioImg = [
 
 
 // * Skills images
-// TODO: Change images to skills I use
 export const skillsImg = [
     {
         id: 1,
-        title: 'CSS',
-        img: css,
-        style: 'shadow-blue-500'
-    },
-    {
-        id: 2,
-        title: 'Github',
-        img: github,
-        style: 'shadow-gray-400'
-    },
-    {
-        id: 3,
-        title: 'Graphql',
-        img: graphql,
-        style: 'shadow-pink-400'
-    },
-    {
-        id: 4,
         title: 'HTML',
         img: html,
         style: 'shadow-orange-500'
     },
     {
-        id: 5,
+        id: 2,
+        title: 'CSS',
+        img: css,
+        style: 'shadow-blue-500'
+    },
+    {
+        id: 3,
         title: 'Javascript',
         img: javascript,
         style: 'shadow-yellow-500'
     },
     {
-        id: 6,
-        title: 'Next.js',
-        img: nextjs,
-        style: 'shadow-white'
-    },
-    {
-        id: 7,
-        title: 'Node.js',
-        img: node,
-        style: 'shadow-green-500'
-    },
-    {
-        id: 8,
+        id: 4,
         title: 'React.js',
         img: react,
         style: 'shadow-blue-600'
     },
     {
-        id: 9,
+        id: 5,
         title: 'tailwindcss',
         img: tailwind,
         style: 'shadow-sky-500'
     },
-]
+    {
+        id: 6,
+        title: 'Github',
+        img: github,
+        style: 'shadow-gray-400'
+    },]
