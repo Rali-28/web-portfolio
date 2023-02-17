@@ -74,5 +74,5 @@ different programming languages and also in creating apps.
   - [ ] TODO: Use EmailJS to have a messaging function in website
 
   ##### SOCIAL LINKS Section
-  - [ ] TODO: Change resume link to show my resume: Opens in new page or downloads it
+  - [x] Change resume link to show my resume: Opens in new page or downloads it
   - [ ] TODO: Make a mobile view of said links

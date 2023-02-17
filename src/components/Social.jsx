@@ -20,11 +20,11 @@ const Social = () => {
           {socialLinks.map(({id, content, style, link, download}) => (
             <li 
               key={id}
-              className={`flex items-center justify-between w-40 px-4 ml-[-100px] duration-300 bg-gray-500 ${style} h-14 hover:ml-[-10px]`}
+              className={`flex items-center justify-between w-40 px-4 ml-[-100px] duration-300 ${style} h-14 hover:ml-[-10px]`}
             >
               <a 
                 href={link} 
-                className='flex items-center justify-between w-full text-white'
+                className={`flex items-center justify-between w-full ${id === 3 ? 'text-black' : 'text-white'}`}
                 // download={download} 
                 target='_blank'
               >

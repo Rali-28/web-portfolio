@@ -44,7 +44,6 @@ export const navLinks = [
 ]
 
 // * Social Links
-// TODO: Change social links style color to respective logo theme
 export const socialLinks = [
     {
         id: 1,
@@ -54,8 +53,8 @@ export const socialLinks = [
                 LinkedIn <FaLinkedin size={30} />
             </>
         ),
-        style: 'rounded-tr-md',
-        link: 'https://www.linkedin.com/'
+        style: 'rounded-tr-md bg-[#0077B5]',
+        link: 'https://www.linkedin.com/in/sean-raleigh-janaban-49b3931b9/'
     },
     {
         id: 2,
@@ -65,8 +64,8 @@ export const socialLinks = [
                 Github <FaGithub size={30} />
             </>
         ),
-        style: '',
-        link: 'https://github.com/'
+        style: 'bg-[#6E5494]',
+        link: 'https://github.com/Rali-28'
     },
     {
         id: 3,
@@ -76,8 +75,8 @@ export const socialLinks = [
                 Email <FiMail size={30} />
             </>
         ),
-        style: '', 
-        link: 'mailto:janaban.srj@gmail.com' // TODO: Add link to emailing me on gmail janaban.srj@gmail.com
+        style: 'bg-white', 
+        link: 'mailto:janaban.srj@gmail.com'
     },
     {
         id: 4,
@@ -87,7 +86,7 @@ export const socialLinks = [
                 Resume <BsFillPersonLinesFill size={30} />
             </>
         ),
-        style: 'rounded-br-md',
+        style: 'rounded-br-md bg-gray-800',
         link: css, // TODO: Add link to resume pdf & Replace with resume
         // download: true // TODO: Fix download for resume
     },
