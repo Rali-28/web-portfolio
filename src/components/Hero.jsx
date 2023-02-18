@@ -47,7 +47,7 @@ const Hero = () => {
         {/* Profile picture of the creator */}
         <div>
           <img src={heroImg} alt="profile_picture"
-          className="w-2/3 mx-auto " />
+          className="w-2/3 rounded-md mx-auto " />
         </div>
       </div>      
     </div>
