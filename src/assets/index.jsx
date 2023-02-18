@@ -1,6 +1,6 @@
 import css from './css.png'
 import github from './github.png'
-import heroImg from './heroImg.png'
+import heroImg from './heroImg.jpg'
 import html from './html.png'
 import javascript from './javascript.png'
 import react from './react.png'

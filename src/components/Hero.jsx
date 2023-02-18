@@ -44,12 +44,10 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* // TODO: CHANGE INTO A PROFESSIONAL PICTURE OR JUST SIMPLY A PICTURE OF MYSELF
-        */}
         {/* Profile picture of the creator */}
         <div>
           <img src={heroImg} alt="profile_picture"
-          className="w-2/3 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl md:w-full" />
+          className="w-2/3 mx-auto " />
         </div>
       </div>      
     </div>
