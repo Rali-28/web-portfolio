@@ -59,7 +59,7 @@ different programming languages and also in creating apps.
   - [x] Make Navbar fixed 
  
   ##### HERO Section
-  - [ ] TODO: Change picture hero section profile picture of myself
+  - [x] Change picture hero section profile picture of myself
 
   ##### ABOUT Section 
   - [x] Change texts into an introduction of myself include why I wanted to pursue this career
