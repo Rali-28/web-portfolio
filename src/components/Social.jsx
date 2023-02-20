@@ -10,7 +10,7 @@ const Social = () => {
       * Renders the list in a column
         TODO: Rendering for small devices  
     */ 
-    <div className='fixed top-[35%] left-0 flex-col lg:hidden lg:flex'>
+    <div className='fixed top-[35%] left-0 flex-col hidden xl:flex'>
       <ul>
           {/* 
             // * Renders a list of social media links using the imports from ../constants/index.jsx 
