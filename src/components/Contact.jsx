@@ -4,7 +4,7 @@ const Contact = () => {
   return (
 
     // * Main container div for the contact section
-    <div id='contact' name='contact' className='w-full h-screen p-4 text-white bg-gradient-to-b from-black to-gray-800'>
+    <div id='contact' name='contact' className='w-full h-full p-4 text-white bg-gradient-to-b from-black to-gray-800'>
 
       {/* 
         // * Container div for arranging and styling the contact section

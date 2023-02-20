@@ -5,7 +5,7 @@ import { skillsImg } from '../constants'
 const Skills = () => {
   return (
     // * Main container div
-    <div id='skills' name='skills' className='w-full h-screen bg-gradient-to-b from-gray-800 to-black'>
+    <div id='skills' name='skills' className='w-full h-full bg-gradient-to-b from-gray-800 to-black'>
 
       <div className='flex flex-col justify-center max-w-screen-lg p-4 mx-auto text-white'>
         {/* Header container div */}
