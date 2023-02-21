@@ -1,6 +1,23 @@
-import React from 'react'
+// * Important imports for using email js
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
+
 
 const Contact = () => {
+
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs.sendForm('service_qw7b007', 'template_pvxo4xa', form.current, 'g43TL_zvA-sxTVN3B')
+      .then((result) => {
+        console.log(result.text)
+      }, (error) => {
+        console.log(error.text)
+      }) 
+  }
+
   return (
 
     // * Main container div for the contact section
@@ -25,12 +42,12 @@ const Contact = () => {
           // TODO: Use EmailJS to enable viewers to send me a message
         */}
         <div className='flex items-center justify-center'>
-          <form action='' className='flex flex-col w-full md:w-1/2'>
+          <form ref={form} onSubmit={sendEmail} className='flex flex-col w-full md:w-1/2'>
 
             {/* Name of Sender Input */}
             <input 
               type='text'
-              name='name'
+              name='user_name'
               placeholder='Enter your name'
               className='contact__form-input'
             />
@@ -38,7 +55,7 @@ const Contact = () => {
             {/* Email address of sender Input */}
             <input 
               type='text'
-              name='email'
+              name='user_email'
               placeholder='Enter your email'
               className='contact__form-input'
             />
@@ -46,13 +63,13 @@ const Contact = () => {
             {/* Message Subject Input */}
             <input 
               type='text'
-              name='subject'
+              name='user_subject'
               placeholder='Subject'
               className='contact__form-input'
             />
             {/* Message input */}
             <textarea 
-              name="message" 
+              name="user_message" 
               rows="10"
               className='contact__form-input'
             >
@@ -60,9 +77,8 @@ const Contact = () => {
             </textarea>
 
             {/* Button for submitting completed forms */}
-            <button className='flex items-center px-6 py-3 mx-auto my-8 text-white duration-300 rounded-md bg-gradient-to-b from-cyan-500 to-blue-500 hover:scale-110'>
-              Send
-            </button>
+            <input type='submit' value='Send' className='flex items-center px-6 py-3 mx-auto my-8 text-white duration-300 rounded-md cursor-pointer bg-gradient-to-b from-cyan-500 to-blue-500 hover:scale-110' />
+
           </form>
         </div>
       </div>

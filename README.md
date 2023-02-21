@@ -71,7 +71,7 @@ different programming languages and also in creating apps.
   - [x] Change images into skills that I am knowledgeable enough to be using
 
   ##### CONTACT Section
-  - [ ] TODO: Use EmailJS to have a messaging function in website
+  - [x] Use EmailJS to have a messaging function in website
 
   ##### SOCIAL LINKS Section
   - [x] Change theme colors of logo and change links to respective websites
