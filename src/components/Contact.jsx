@@ -13,6 +13,7 @@ const Contact = () => {
     emailjs.sendForm('service_qw7b007', 'template_pvxo4xa', form.current, 'g43TL_zvA-sxTVN3B')
       .then((result) => {
         console.log(result.text)
+        document.getElementById("FORM").reset()
       }, (error) => {
         console.log(error.text)
       }) 
@@ -42,7 +43,7 @@ const Contact = () => {
           // TODO: Use EmailJS to enable viewers to send me a message
         */}
         <div className='flex items-center justify-center'>
-          <form ref={form} onSubmit={sendEmail} className='flex flex-col w-full md:w-1/2'>
+          <form id='FORM' ref={form} onSubmit={sendEmail} className='flex flex-col w-full md:w-1/2'>
 
             {/* Name of Sender Input */}
             <input 
