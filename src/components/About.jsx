@@ -5,7 +5,7 @@ import { about } from '../constants'
 const About = () => {
   return (
     // * Main container for the About Section
-    <div id='about' name='about' className='w-full h-screen text-white bg-gradient-to-b from-gray-800 to-black'>
+    <div id='about' name='about' className='w-full h-full md:h-screen text-white bg-gradient-to-b from-gray-800 to-black'>
 
       {/* 
         // * About Section container for Headers and Texts 
@@ -20,7 +20,6 @@ const About = () => {
         </div>
 
         {/* 
-          // TODO: Put a professional "About Me" statements in here.
           // * Renders the Texts for showing About me
           // * Adds a mt-20 on the first paragraph
           // * Paragraphs are indented
