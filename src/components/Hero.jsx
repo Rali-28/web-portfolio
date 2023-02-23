@@ -4,10 +4,12 @@ import { heroImg } from '../assets'
 // * imports a right arrow icon from react-icons/bi
 import { BiRightArrowCircle } from 'react-icons/bi'
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 const Hero = () => {
   return (
     // * Main div of the hero section
-    <div name="home" id="home" className="w-full h-screen text-white bg-gradient-to-b from-black to-gray-800">
+    <div name="home" id="home" className="w-full h-full md:h-screen text-white bg-gradient-to-b from-black to-gray-800">
 
       {/* 
         // * Div for handling two sections of the webpage, the Introduction and profile picture
@@ -34,13 +36,23 @@ const Hero = () => {
               // * The portfolio button that have acolor of cyan to blue
               // * aligned as a column to make right arrow appear besides "Portfolio"
             */}
-            <button className="flex items-center px-6 py-3 my-2 rounded-md cursor-pointer group w-fit bg-gradient-to-r from-cyan-500 to-blue-500 text-[25px] mx-auto md:mx-0">
-              Portfolio 
-              {/* Shows a right arrow in a circle besides the "Portfolio" */}
-                <span className="px-2 duration-300 group-hover:rotate-90">
-                  <BiRightArrowCircle size={30} />
-                </span>
-            </button>
+
+            <Link
+              to={'portfolio'}
+              spy={true}
+              offset={-70}
+              smooth={true}
+              duration={500}
+            >
+              <button className="flex items-center px-6 py-3 my-2 rounded-md cursor-pointer group w-fit bg-gradient-to-r from-cyan-500 to-blue-500 text-[25px] mx-auto md:mx-0">
+                Portfolio 
+                {/* Shows a right arrow in a circle besides the "Portfolio" */}
+                  <span className="px-2 duration-300 group-hover:rotate-90">
+                    <BiRightArrowCircle size={30} />
+                  </span>
+              </button>
+            </Link>
+            
           </div>
         </div>
 
