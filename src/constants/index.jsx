@@ -9,15 +9,14 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { FiMail } from 'react-icons/fi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 // End of social icons
-// TODO: Change to pdf of resume
-// import { css } from '../assets'
 
 // * Image import for portfolio previews
 // * assets/portfolio
+// * myResume pdf file
 import { arrayDestruct, installNode, navbar, reactParallax, reactSmooth, reactWeather, usestate } from '../assets/portfolio'
 
 // * Images for use in skills section
-import { css, github, html, javascript, react, tailwind } from '../assets'
+import { css, github, html, javascript, react, tailwind, myResume } from '../assets'
 
 // * Navigation Bar links
 export const navLinks = [
@@ -87,8 +86,7 @@ export const socialLinks = [
             </>
         ),
         style: 'rounded-br-md bg-gray-800',
-        link: css, // TODO: Add link to resume pdf & Replace with resume
-        // download: true // TODO: Fix download for resume
+        link: myResume, 
     },
 ]
 

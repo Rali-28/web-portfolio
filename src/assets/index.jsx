@@ -5,6 +5,7 @@ import html from './html.png'
 import javascript from './javascript.png'
 import react from './react.png'
 import tailwind from './tailwind.png'
+import myResume from './myResume.pdf'
 
 
 // TODO: Changes images to be suitable for me, heroImg to image of self, technologies that I actually use
@@ -17,5 +18,6 @@ export
     html,
     javascript,
     react,
-    tailwind
+    tailwind,
+    myResume
 }

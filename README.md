@@ -79,5 +79,5 @@ different programming languages and also in creating apps.
 
   ##### SOCIAL LINKS Section
   - [x] Change theme colors of logo and change links to respective websites
-  - [ ] TODO: Change resume link to show my resume: Opens in new page or downloads it
+  - [x] Change resume link to show my resume: Opens in new page or downloads it
   - [ ] TODO: Make a mobile view of said links
