@@ -17,7 +17,7 @@ const Social = () => {
             // * LinkedIn, Github, Email (Gmail), Resume (in respective order)
             // TODO: Fix download
           */}
-          {socialLinks.map(({id, content, style, link, download}) => (
+          {socialLinks.map(({id, content, style, link}) => (
             <li 
               key={id}
               className={`flex items-center justify-between w-40 px-4 ml-[-100px] duration-300 ${style} h-14 hover:ml-[-10px]`}
