@@ -1,13 +1,13 @@
 # Website Portfolio
 
+[Website Link](https://rali-webprofile.netlify.app)
+
 A single-page website that serves as a digital resume. Projects will be showcased in here, 
 show what languages I am knowledgeable in using, a self-introduction, and presents 
 my soft and hard skills.
 
 This is to show my skills and also serves as a practice in using
 different programming languages and also in creating apps.
-
-[Website Link](https://rali-webprofile.netlify.app)
 
 ## Technologies Used
 
