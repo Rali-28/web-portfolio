@@ -13,7 +13,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 // * Image import for portfolio previews
 // * assets/portfolio
 // * myResume pdf file
-import { brewster } from '../assets/portfolio'
+import { brewster , great_outdoor } from '../assets/portfolio'
 
 // * Images for use in skills section
 import { css, github, html, javascript, react, tailwind, myResume } from '../assets'
@@ -114,6 +114,13 @@ export const portfolioImg = [
         img: brewster,
         github: 'https://github.com/Rali-28/the_brewster',
         link: 'https://the-brewster.netlify.app/' 
+    },
+    {
+        id: 2,
+        title: 'The Great Outdoor Project',
+        img: great_outdoor,
+        github: 'https://github.com/Rali-28/the-great-outdoors',
+        link: 'https://rali-28.github.io/the-great-outdoors/' 
     },
 ]
 
