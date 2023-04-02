@@ -7,6 +7,8 @@ my soft and hard skills.
 This is to show my skills and also serves as a practice in using
 different programming languages and also in creating apps.
 
+[Website Link](https://rali-webprofile.netlify.app)
+
 ## Technologies Used
 
 ### Node.js / NPM
@@ -69,7 +71,7 @@ different programming languages and also in creating apps.
   - [x] Change texts into an introduction of myself include why I wanted to pursue this career
 
   ##### PORTFOLIO Section
-  - [ ] TODO: Add pictures and links of projects that I created
+  - [x] TODO: Add pictures and links of projects that I created
 
   ##### SKILLS Section
   - [x] Change images into skills that I am knowledgeable enough to be using
