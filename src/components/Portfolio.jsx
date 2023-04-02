@@ -36,8 +36,8 @@ const Portfolio = () => {
                 // TODO: Add links to button to open a specific project
               */}
               <div className='flex items-center justify-center'>
-                <a className='btn-portfolio'>Demo</a>
-                <a className='btn-portfolio'>Code</a>
+                <a className='btn-portfolio' href={link} target='_blank'>Demo</a>
+                <a className='btn-portfolio' href={github} target='_blank'>Code</a>
               </div>
             </div>
           ))}
