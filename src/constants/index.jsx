@@ -13,7 +13,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 // * Image import for portfolio previews
 // * assets/portfolio
 // * myResume pdf file
-import {  } from '../assets/portfolio'
+import { brewster } from '../assets/portfolio'
 
 // * Images for use in skills section
 import { css, github, html, javascript, react, tailwind, myResume } from '../assets'
@@ -110,10 +110,10 @@ export const about = [
 export const portfolioImg = [
     {
         id: 1,
-        title: ,
-        img: ,
-        github: ,
-        link: 
+        title: 'The Brewster Page',
+        img: brewster,
+        github: 'https://github.com/Rali-28/the_brewster',
+        link: 'https://the-brewster.netlify.app/' 
     },
 ]
 
