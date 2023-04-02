@@ -26,7 +26,7 @@ const Portfolio = () => {
           // * Shows 2 columns for mobile view screens
         */}
         <div className='grid gap-8 px-12 sm:grid-cols-2 md:grid-cols-3 sm:px-0'>
-        {portfolioImg.map(({id, title, img}) => (
+        {portfolioImg.map(({id, title, img, github, link}) => (
           <div key={id} className='rounded-lg shadow-md shadow-gray-600'>
             
               <img src={img} alt={title} className='duration-200 rounded-md hover:scale-105' />
@@ -36,8 +36,8 @@ const Portfolio = () => {
                 // TODO: Add links to button to open a specific project
               */}
               <div className='flex items-center justify-center'>
-                <button className='btn-portfolio'>Demo</button>
-                <button className='btn-portfolio'>Code</button>
+                <a className='btn-portfolio'>Demo</a>
+                <a className='btn-portfolio'>Code</a>
               </div>
             </div>
           ))}
