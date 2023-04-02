@@ -13,7 +13,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 // * Image import for portfolio previews
 // * assets/portfolio
 // * myResume pdf file
-import { arrayDestruct, installNode, navbar, reactParallax, reactSmooth, reactWeather, usestate } from '../assets/portfolio'
+import {  } from '../assets/portfolio'
 
 // * Images for use in skills section
 import { css, github, html, javascript, react, tailwind, myResume } from '../assets'
@@ -109,39 +109,11 @@ export const about = [
 // TODO: Add links to project
 export const portfolioImg = [
     {
-      id: 1,
-      title: 'array destruct',
-      img: arrayDestruct
-    },
-    {
-      id: 2,
-      title: 'install node',
-      img: installNode
-    },
-    {
-      id: 3,
-      title: 'navbar',
-      img: navbar   
-    },
-    {
-      id: 4,
-      title: 'react parallax',
-      img: reactParallax  
-    },
-    {
-      id: 5,
-      title: 'react smooth',
-      img: reactSmooth  
-    },
-    {
-      id: 6,
-      title: 'react weather',
-      img: reactWeather  
-    },
-    {
-      id: 7,
-      title: 'usestate',
-      img: usestate   
+        id: 1,
+        title: ,
+        img: ,
+        github: ,
+        link: 
     },
 ]
 
